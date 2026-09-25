@@ -1,0 +1,16 @@
+generated: '2026-09-25'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: apposter.com
+  https: true
+  tls_version: TLSv1.2
+  cert_expires: Nov 22 11:41:20 2026 GMT
+  hsts: false
+domains:
+- domain: apposter.com
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: none
